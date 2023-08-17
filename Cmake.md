@@ -1,3 +1,5 @@
+
+## how to build a project with Cmakelist.txt
 - `mkdir build`
 - `cd build`
 - `cmake ..` OR `cmake -G "Visual Studio 17 2022" ..` - This is the command-line tool for the CMake build system; Navigate to the root directory of your project (where the main CMakeLists.txt file is).

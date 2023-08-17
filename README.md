@@ -1,0 +1,2 @@
+# CheatSheet
+useful random things

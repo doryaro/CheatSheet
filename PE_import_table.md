@@ -1,6 +1,7 @@
+## less accurate
 ![Picture1](https://github.com/doryaro/CheatSheet/assets/79984448/7dd1b870-98a1-4964-9063-7935c0d0a0c6) \
 FirstThunk and OriginalFirstThunk first point to the same location
-
+## more accurate
 ![Picture2](https://github.com/doryaro/CheatSheet/assets/79984448/eeec04ce-5a2d-450b-bdfb-5063da6cc2b9) \
 Image-Import-Descriptor == Import Directory Table \
 Hint-Name Array == Import Lookup Table \

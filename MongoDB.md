@@ -1,2 +1,3 @@
 - `{ <filed : <name> } - search exact name in the field`
 - `{ <field>: { $regex: /<reg>/, $options: 'i' } } - search requests with regex The $options: 'i' part makes the search case-insensitive`
+- `{ <field>: {$not: {$lte: 1}}}  $not = ! not   ,  lte - less then or equal to `

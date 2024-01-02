@@ -14,8 +14,6 @@
 - `properties -> linker -> input-> addithinal include libaries` to use in visual studio
 - `check which LNK2001 is not working check where in the code is belong and then check the file.lib and import that as well
 - `` to use in visual studio
-- `` to use in visual studio
-- 
 
 
 #### components
@@ -26,8 +24,6 @@
 - **Sema**: The component that checks the semantic validity of the created expressions which are part the constructed AST. For example, "int a = "abc;" is of course not a valid expression.
 
 ### Docs
-
-- [docs](https://clang.llvm.org/docs/)
 - [docs](https://clang.llvm.org/docs/)
 - [understanding-the-clang-ast](https://jonasdevlieghere.com/understanding-the-clang-ast/)
 
@@ -35,9 +31,6 @@
 
 - `clang-check -ast-dump -ast-dump-filter=func1 Source.cpp` dump AST and only one function
 - `clang -fsyntax-only -Xclang -ast-view min.c` to see the dot files go to [GraphvizOnline](https://dreampuf.github.io/GraphvizOnline/)
-- `clang -fsyntax-only -Xclang -ast-view min.c`
-- `clang -fsyntax-only -Xclang -ast-view min.c`
-- `clang -fsyntax-only -Xclang -ast-view min.c`
 - `    "command": "\"C:/Users/toorr/Downloads/llvm-project/build/Release/bin/clang++.exe\" -x c++ \"C:/Users/toorr/Desktop/PlayGround/testapp/ConsoleApplication1/Cdor.cpp\" -std=c++14 -Wall -fms-compatibility-version=19.10 -Wmicrosoft -Wno-invalid-token-paste -Wno-unknown-pragmas -Wno-unused-value -fsyntax-only \"-DUNICODE\" \"-D_UNICODE\" \"-D_MT\" \"-D_DLL\" \"-D_AFXDLL\" \"-D_DEBUG\" \"-D_CONSOLE\" \"-D_DEBUG_FUNCTIONAL_MACHINERY\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Tools/MSVC/14.29.30133/atlmfc/include\" -isystem\"C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/VC/Auxiliary/VS/include\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.20348.0/ucrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.20348.0/um\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.20348.0/shared\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.20348.0/winrt\" -isystem\"C:/Program Files (x86)/Windows Kits/10/Include/10.0.20348.0/cppwinrt\"",	`
 
 ### clang
@@ -50,9 +43,6 @@
     - `-std=c++17` for C++ 17  (use `-std=c++1z` in Clang 4 and earlier).
     - `-std=c++20` for C++ 20  (use `-std=c++2a` in Clang 9 and earlier).
     - `-std=c++2b` for C++ 23  (use `-std=c++1z` in Clang 4 and earlier).
-- 
-- 
-
 
 #### Classes 
 
@@ -61,18 +51,11 @@
 - `DeclStmt` Adaptor class for mixing declarations with statements and expressions..
 - `VarDecl` Represents a variable declaration or definition.
 - `IntegerLiteral` explantion.
-- `command` explantion.
-- `command` explantion.
-- `command` explantion.
-- `command` explantion.
-- `command` explantion.
 
 
 #### Links
 
 - [Clang docs](https://clang.llvm.org/doxygen/).
-- `command` explantion.
-- `command` explantion.
 
 
 An AST node represents declarations, statements, and types. Hence, there are three
@@ -84,82 +67,3 @@ inherits from the Stmt class. On the other hand, the FunctionDecl and VarDecl
 classes—used to hold function and variable declarations or definitions—inherits 
 from more than one class and only reaches Decl indirectl
 
-#### category
-
-- `command` explantion.
-- `command` explantion.
-- `command` explantion.
-#### category
-
-- `command` explantion.
-- `command` explantion.
-- `command` explantion.
-#### category
-
-- `command` explantion.
-- `command` explantion.
-- `command` explantion.
-#### category
-
-- `command` explantion.
-- `command` explantion.
-- `command` explantion.
-
-#### category
-
-
-- `command` explantion.
-- `command` explantion.
-- `command` explantion.
-
-#### category
-
-
-- `command` explantion.
-- `command` explantion.
-- `command` explantion.
-
-#### category
-
-
-- `command` explantion.
-- `command` explantion.
-- `command` explantion.
-
-#### category
-
-
--  []() explantion.
--  []() explantion.
--  []() explantion.
-
-
-#### category
-
-
-- `command` explantion.
-- `command` explantion.
-- `command` explantion.
-
-
-
-#### category
-
-
-1. `command` explantion.
-2. `command` explantion.
-3. `command` explantion.
-4. `command` explantion.
-5. `command` explantion.
-
-
-
-
-#### category
-
-
-1. `command` explantion.
-2. `command` explantion.
-3. `command` explantion.
-4. `command` explantion.
-5. `command` explantion.

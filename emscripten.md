@@ -1,4 +1,4 @@
-`set EMMAKEN_CFLAGS=-fshort-wchar` - I understand wchar_t in emscripten defaults to 32 bit, but it can be changed to 16 bit by using EMMAKEN_CFLAGS=-fshort-wchar. \
+`set EMMAKEN_CFLAGS=-fshort-wchar` - I understand wchar_t in emscripten defaults to 32 bit, but it can be changed to 16 bit by using EMMAKEN_CFLAGS=-fshort-wchar. 
 
 ```
 cls &&

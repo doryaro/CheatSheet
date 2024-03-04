@@ -5,5 +5,5 @@ open the rdp file in vscode or all other editor and append this lines \
 `password 51:b:myEncryptedPassword`
 ### how to get myEncryptedPassword
 open powershell and write this \
-`(MySuperSecretPassword! | ConvertTo-SecureString -AsPlainText -Force) | ConvertFrom-SecureString` \
+`("MySuperSecretPassword!" | ConvertTo-SecureString -AsPlainText -Force) | ConvertFrom-SecureString` \
 and copy the generated output to myEncryptedPassword
